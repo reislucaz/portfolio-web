@@ -1,0 +1,60 @@
+.terminal {
+    font-family: 'Fira Code';
+    background-color: #000000;
+    width: 850px;
+    height: 25rem;
+    margin: 10rem auto;
+}
+
+#terminalIcon {
+    font-size: larger;
+}
+
+.terminalHeader{
+    color: #FFF;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 10%;
+    cursor: default;
+}
+
+.HeaderWindow {
+    background-color: #0E0E0E;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#windowCross:hover {
+    background-color: #910303;
+    border-radius: 50%;
+}
+
+.HeaderOptions {
+    width: 200px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+#cross:hover {
+    background-color: #910303;
+}
+
+.HeaderOption {
+    margin: auto;
+    padding: 10px 22px;
+}
+
+.HeaderOption:hover {
+    background-color: #3f3f3f;
+}
+
+.textoTerminal {
+    color: #FFF;
+    margin: 50px 25px
+}
