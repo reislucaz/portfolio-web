@@ -4,6 +4,7 @@
     width: 850px;
     height: 25rem;
     margin: 10rem auto;
+    border: 2px solid rgb(17, 17, 17);
 }
 
 #terminalIcon {
@@ -57,4 +58,8 @@
 .textoTerminal {
     color: #FFF;
     margin: 50px 25px
+}
+
+.terminalBody {
+    background-color: #000000;
 }

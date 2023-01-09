@@ -1,0 +1,158 @@
+#first-icon {
+    color: #00af26;
+    position: absolute;
+    border: 2px solid #00af26;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 60px;
+    top: calc(25vh - 90px);
+    left: calc(18% - 30px);
+    -webkit-animation: slide-tr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+            animation: slide-tr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+}
+
+#second-icon {
+    color: #0084ff;
+    position: absolute;
+    border: 2px solid #0084ff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    font-size: 60px;
+    justify-self: center;
+    top: calc(50vh - 30px);
+    left: calc(18% - 30px);
+    -webkit-animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+
+#third-icon {
+  color: #00e1ff;
+  position: absolute;
+  border: 2px solid #00e1ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  font-size: 60px;
+  justify-self: center;
+  top: calc(20vh - 30px);
+  left: calc(85% - 30px);
+  -webkit-animation: slide-tl 5s cubic-bezier(0.550, 0.055, 0.675, 0.190) infinite alternate-reverse both;
+	        animation: slide-tl 5s cubic-bezier(0.550, 0.055, 0.675, 0.190) infinite alternate-reverse both;
+}
+
+#fourth-icon {
+  color: #fff;
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  font-size: 40px;
+  justify-self: center;
+  top: calc(50vh - 30px);
+  left: calc(80% - 40px);
+  -webkit-animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+
+#fifth-icon {
+  color: #ca0c0c;
+  position: absolute;
+  border: 2px solid #ca0c0c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  font-size: 40px;
+  justify-self: center;
+  top: calc(80vh - 30px);
+  left: calc(28% - 30px);
+  -webkit-animation: slide-tl 5s cubic-bezier(0.550, 0.055, 0.675, 0.190) infinite alternate-reverse both;
+	        animation: slide-tl 5s cubic-bezier(0.550, 0.055, 0.675, 0.190) infinite alternate-reverse both;
+}
+
+#sixth-icon {
+  color: #fda500;
+  position: absolute;
+  border: 2px solid #fda500;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  font-size: 40px;
+  justify-self: center;
+  top: calc(75vh - 30px);
+  left: calc(80% - 40px);
+  -webkit-animation: slide-tr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+            animation: slide-tr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes slide-tl {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px) translateX(-100px);
+            transform: translateY(-100px) translateX(-100px);
+  }
+}
+@keyframes slide-tl {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px) translateX(-100px);
+            transform: translateY(-100px) translateX(-100px);
+  }
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+
+@-webkit-keyframes slide-tr {
+    0% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px) translateX(100px);
+              transform: translateY(-100px) translateX(100px);
+    }
+  }
+  @keyframes slide-tr {
+    0% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px) translateX(100px);
+              transform: translateY(-100px) translateX(100px);
+    }
+  }

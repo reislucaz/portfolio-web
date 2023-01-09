@@ -4,11 +4,9 @@ import "./index.css";
 function Header() {
     return (
         <header className="header">
-            <ul className="headerItems">
-                <li className="HeaderItem">Início</li>
-                <li className="HeaderItem">Projetos</li>
-                <li className="HeaderItem">Contato</li>
-            </ul>
+            <a href="" className="headerItems">Início</a>
+            <a href="" className="headerItems">Projetos</a>
+            <a href="" className="headerItems">Contato</a>
         </header>
     )
 }

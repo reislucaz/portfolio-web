@@ -1,14 +1,12 @@
 .header {
     font-family: 'Poppins';
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
 }
 
 .headerItems {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 15%;
-    margin: auto;
-    align-items: center;
-    color: #fff
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 20px;
 }
