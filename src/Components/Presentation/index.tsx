@@ -1,5 +1,6 @@
 import './index.css'
 import LucasImg from './lucas-reis.webp'
+import ThreeScene from '../ThreeScene'
 
 function Presentation () {
     return (
@@ -14,7 +15,7 @@ function Presentation () {
                 </div>
             </div>
             <div className="presentation-right">
-                <canvas id="three"></canvas>
+                <ThreeScene />
             </div>
         </div>
     )
