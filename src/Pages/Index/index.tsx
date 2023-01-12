@@ -5,13 +5,16 @@ import Icons from "../../Components/Icons";
 import { RiArrowDownSLine } from "react-icons/ri"
 import "./index.css"
 import Presentation from "../../Components/Presentation";
+import Contact from '../../Components/Contact';
+import Wave from '../../Components/Wave';
+import MediaQuery from 'react-responsive';
 
+export function scrollToPres (y: number) {
+    let scroll = Scroll.animateScroll;
+    scroll.scrollTo(y)
+}
 
 function IndexPage () {
-    let scroll = Scroll.animateScroll;
-    let scrollToPres = () => {
-        scroll.scrollTo(1000)
-    }
 
     return (
         <div>
@@ -19,8 +22,12 @@ function IndexPage () {
             <Header />
             <Terminal />
             <Icons />
-            <RiArrowDownSLine className="arrow" onClick={scrollToPres}/>
+            <RiArrowDownSLine className="arrow" onClick={() => scrollToPres(1000)}/>
             <Presentation />
+            <MediaQuery maxWidth={713}>
+                <Wave />
+            </MediaQuery>
+            <Contact />
         </div>
     )
 }

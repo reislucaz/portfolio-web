@@ -1,0 +1,13 @@
+#path-wave {
+    stroke: none;
+    fill:#161616;
+    width: 100%;
+}
+
+#svg-wave {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}

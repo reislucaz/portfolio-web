@@ -1,3 +1,7 @@
+.icon {
+  z-index: 1;
+}
+
 #first-icon {
     color: #00af26;
     position: absolute;
@@ -27,6 +31,7 @@
     left: calc(18% - 30px);
     -webkit-animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
 	        animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+          z-index: 1;
 }
 
 #third-icon {

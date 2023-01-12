@@ -11,7 +11,7 @@ function Terminal() {
             <div className="terminalHeader">
                 <div className="HeaderWindow">
                     <BsTerminal id='terminalIcon'/>
-                    <p>C:\Users\LucasReis</p>
+                    <p id="WindowName">C:\Users\LucasReis</p>
                     <RxCross2 id='windowCross'/>
                 </div>
                 <div className="HeaderOptions">

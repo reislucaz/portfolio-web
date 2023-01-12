@@ -1,17 +1,24 @@
 import './index.css'
 import LucasImg from './lucas-reis.webp'
-import ThreeScene from '../ThreeScene'
+import ThreeScene from './ThreeScene'
 
 function Presentation () {
     return (
-        <div className="mainPresentation">
+        <div className="main-presentation">
             <div className="presentation-left">
                 <h2 id="sobre-mim-text">_Sobre mim</h2>
                 <div className="photo-text">
                     <img src={LucasImg} alt="" id="lucas-photo" />
-                    <p id="lucas-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam rem beatae ullam ut neque sit incidunt quo magnam, repellendus cupiditate
-                    libero blanditiis,reprehenderit rerum tempore nesciunt est natus consectetur eos.</p>
+                    <div className="lucas-text">
+                        <p>Lucas Reis, Estudante do 2º Período de Engenharia de Software na instituição UNIEvangélica.
+                        Atualmente trabalho como Desenvolvedor Back-end na Fábrica de Tecnologias Turing.
+                        Possuo conhecimento de inglês em nível intermediário, conhecimento sobre processos de software,
+                        em especial metodologias ágeis.
+                        </p>
+                        <p id="final-text">
+                        Tenho paixão por aprender e acredito que a vida seja uma construção de aprendizados contínuos._
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="presentation-right">

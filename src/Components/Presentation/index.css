@@ -1,17 +1,17 @@
-.mainPresentation {
+.main-presentation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     height: 100vh;
-    background-color: rgb(22, 22, 22);
+    background-color: #161616;
     margin-top: 400px;
     border-radius: 0% 100% 0% 100% / 100% 16% 84% 0%  ;
 }
 
 .presentation-left {
-    width: 80vh;
+    width: 100vh;
     height: 50vh;
     margin: auto;
     font-family: 'Fira Code';
@@ -36,20 +36,52 @@
 }
 
 #lucas-photo {
-    width: 24vh;
+    width: 30vh;
     border-radius: 50%;
-    border: 2px solid rgb(255, 196, 0)
+    border: 2px solid #ffa600;
 }
 
-#lucas-text {
-    font-size: large;
+.lucas-text {
+    font-size: 20px;
     color: #fff;
-    width: 40vh;
+    width: 60vh;
     padding-left: 50px
+}
+
+#final-text {
+    color: #ffa600
 }
 
 .presentation-right {
     width: 60vh;
     height: 50vh;
     margin: auto;
+}
+
+@media (max-width: 885px) {
+
+    .lucas-text {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        width: 40vh;
+        padding: 0;
+    }
+
+    .presentation-right {
+        width: 40vh;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .lucas-text {
+        width: 30vh;
+    }
+
+    .presentation-right {
+        width: 25vh;
+        height: 40vh;
+    }
 }

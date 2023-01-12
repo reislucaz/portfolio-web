@@ -1,12 +1,13 @@
 import "@fontsource/poppins";
 import "./index.css";
+import { scrollToPres } from "../../Pages/Index";
 
 function Header() {
     return (
         <header className="header">
-            <a href="" className="headerItems">Início</a>
-            <a href="" className="headerItems">Projetos</a>
-            <a href="" className="headerItems">Contato</a>
+            <a className="headerItems">Início</a>
+            <a className="headerItems">Projetos</a>
+            <a className="headerItems" onClick={()=> scrollToPres(1700)}>Contato</a>
         </header>
     )
 }

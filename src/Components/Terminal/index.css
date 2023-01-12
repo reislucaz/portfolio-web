@@ -5,6 +5,8 @@
     height: 25rem;
     margin: 10rem auto;
     border: 2px solid rgb(17, 17, 17);
+    z-index: 2;
+    position: relative;
 }
 
 #terminalIcon {
@@ -62,4 +64,38 @@
 
 .terminalBody {
     background-color: #000000;
+}
+
+@media (max-width: 870px ) {
+    .terminal {
+        width: 500px;
+    }
+
+    .HeaderWindow {
+        width: 40%
+    }
+
+    #WindowName {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px ) {
+    .terminal {
+        width: 300px;
+    }
+
+    .HeaderWindow {
+        width: 30%;
+    }
+
+    #WindowName {
+        font-size: 6px;
+        text-overflow: ellipsis;
+    }
+
+    .HeaderOptions {
+        width: 150px;
+        height: 100%;
+    }
 }

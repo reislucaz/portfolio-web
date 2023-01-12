@@ -1,0 +1,59 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    color: #fff;
+    font-family: 'Fira Code';
+    margin: auto;
+}
+
+label {
+    color: #ffa600;
+}
+
+.input-form {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(219, 219, 219);
+    background-color: #444;
+    border-radius: 5%;
+    border: 2px solid #222
+}
+
+#message {
+    font-size: 13px;
+    height: 15vh;
+    width: 80%;
+}
+
+button {
+    width: 20vh;
+    height: 5vh;
+    margin: 20px auto;
+    background-color: #ffa600;
+    font-size: 17px;
+    font-family: 'Fira Code';
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a56b00;
+}
+
+button:active {
+    background-color: #ffa600;
+}
+
+@media (max-width: 500px) {
+    .form {
+        width: 35vh;
+    }
+}
+
+@media (max-width: 360px) {
+    .form {
+        width: 25vh;
+    }
+}
