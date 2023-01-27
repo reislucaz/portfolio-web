@@ -55,9 +55,8 @@
 
 
 @media (max-width: 885px) {
-
     .lucas-text {
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
         color: #fff;
         width: 40vh;
@@ -71,6 +70,9 @@
 }
 
 @media (max-width: 500px) {
+    #lucas-photo {
+        width: 90%;
+    }
 
     .lucas-text {
         width: 30vh;

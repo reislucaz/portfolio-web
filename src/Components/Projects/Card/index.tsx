@@ -9,7 +9,7 @@ function Card({...props}) {
                 <div className="card-image-container">
                     <img src={props.image} className="card-image"/>
                 </div>
-                <p className="card-title">{props.title}</p>
+                <p className="card-title">${props.title}</p>
             </div>
             <div className="card-body">
                 <p id="card-description">{props.description}</p>

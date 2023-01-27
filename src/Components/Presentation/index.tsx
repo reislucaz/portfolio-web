@@ -9,7 +9,7 @@ function Presentation () {
                 <div className="photo-text">
                     <img src={LucasImg} alt="" id="lucas-photo" />
                     <div className="lucas-text">
-                        <p>Lucas Reis, Estudante do 2º Período de Engenharia de Software na instituição UNIEvangélica.
+                        <p>Lucas Reis, Estudante do 3º Período de Engenharia de Software na instituição UNIEvangélica.
                         Atualmente trabalho como Desenvolvedor Back-end na Fábrica de Tecnologias Turing.
                         Possuo conhecimento de inglês em nível intermediário, conhecimento sobre processos de software,
                         em especial metodologias ágeis.
