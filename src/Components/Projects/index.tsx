@@ -19,9 +19,9 @@ function Projects () {
             slidesPerView={slidesPerView}
             spaceBetween={30}
             id="swiper">
-                {projects.map( (p: any) => {
-                    return  <SwiperSlide className="card-slide">
-                                <Card {...p} />
+                {projects.map( (p: any, index: number) => {
+                    return  <SwiperSlide className="card-slide" key={index}>
+                                <Card {...p}/>
                             </SwiperSlide>
                 })}
             </Swiper>

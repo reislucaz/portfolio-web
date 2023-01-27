@@ -1,7 +1,8 @@
 import { BsTerminal } from 'react-icons/bs'
 import { RxCross2, RxCross1 } from 'react-icons/rx'
 import { FaRegWindowMinimize, FaRegSquare, } from 'react-icons/fa'
-import Typist from 'react-typist'
+// @ts-ignore
+import Typist from 'react-typist-component'
 import './index.css'
 import "@fontsource/fira-code";
 
@@ -25,7 +26,7 @@ function Terminal() {
                 <p className='textoTerminal' id='cdPortfolio'>{'>'} cd \Meu Portfolio\</p>
                 <p className='textoTerminal' id='echo'>
                     <Typist>{'>'} echo "Seja bem vindo ao meu Portfólio!"
-                    <Typist.Delay ms={1}/><br/>{'>'} echo "É uma honra tê-lo aqui! =D  </Typist>
+                    <br/>{'>'} echo "É uma honra tê-lo aqui! =D  </Typist>
                 </p>
             </div>
         </div>
