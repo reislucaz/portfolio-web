@@ -8,6 +8,7 @@ import Presentation from "../../Components/Presentation";
 import Contact from '../../Components/Contact';
 import Wave from '../../Components/Wave';
 import MediaQuery from 'react-responsive';
+import Projects from '../../Components/Projects';
 
 export function scrollToPres (y: number) {
     let scroll = Scroll.animateScroll;
@@ -24,6 +25,7 @@ function IndexPage () {
             <Icons />
             <RiArrowDownSLine className="arrow" onClick={() => scrollToPres(1000)}/>
             <Presentation />
+            <Projects />
             <MediaQuery maxWidth={713}>
                 <Wave />
             </MediaQuery>

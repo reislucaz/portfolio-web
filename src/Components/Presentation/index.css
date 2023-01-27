@@ -10,8 +10,8 @@
     border-radius: 0% 100% 0% 100% / 100% 16% 84% 0%  ;
 }
 
-.presentation-left {
-    width: 100vh;
+.presentation-container {
+    width: 120vh;
     height: 50vh;
     margin: auto;
     font-family: 'Fira Code';
@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -36,7 +37,7 @@
 }
 
 #lucas-photo {
-    width: 30vh;
+    width: 40vh;
     border-radius: 50%;
     border: 2px solid #ffa600;
 }
@@ -52,11 +53,6 @@
     color: #ffa600
 }
 
-.presentation-right {
-    width: 60vh;
-    height: 50vh;
-    margin: auto;
-}
 
 @media (max-width: 885px) {
 

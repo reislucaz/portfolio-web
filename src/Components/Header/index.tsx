@@ -6,8 +6,8 @@ function Header() {
     return (
         <header className="header">
             <a className="headerItems">Início</a>
-            <a className="headerItems">Projetos</a>
-            <a className="headerItems" onClick={()=> scrollToPres(1700)}>Contato</a>
+            <a className="headerItems" onClick={()=> scrollToPres(1700)}>Projetos</a>
+            <a className="headerItems" onClick={()=> scrollToPres(2500)}>Contato</a>
         </header>
     )
 }

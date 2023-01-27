@@ -28,7 +28,7 @@ label {
     width: 80%;
 }
 
-button {
+#button-contact {
     width: 20vh;
     height: 5vh;
     margin: 20px auto;
@@ -38,11 +38,11 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+#button-contact:hover {
     background-color: #a56b00;
 }
 
-button:active {
+#button-contact:active {
     background-color: #ffa600;
 }
 

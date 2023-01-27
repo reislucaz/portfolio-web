@@ -1,7 +1,7 @@
 import { OrbitControls, Stats } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Model } from './model'
-import './index.css'
+import './index.css';
 
 
 function ThreeScene() {

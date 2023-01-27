@@ -1,0 +1,143 @@
+#swiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    padding: 10vh 0;
+}
+
+.card-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #6e6e6e;
+    padding: 10vh 0;
+    border-radius: 3%;
+    max-height: 50vh;
+    max-width: 50vh;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+    border-radius: 5%;
+}
+
+.card-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 5%;
+}
+.card-image {
+    width: 70%;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.card-title {
+    color: #fff;
+    font-family: 'Fira Code';
+    font-size: 20px;
+    z-index: 2;
+    background-color: #222;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 20vh;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+#card-description {
+    text-align: center;
+    width: 90%;
+    height: 20vh;
+    color: #fff;
+    font-family: 'Fira Code';
+    font-size: 13px;
+    z-index: 2;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 15vh;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+#disabled {
+    visibility: hidden;
+}
+
+.card-link {
+    color: black;
+    font-family: 'Fira Code';
+    font-size: 15px;
+    z-index: 2;
+    background-color: #ffa600;
+    border-radius: 7%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20vh;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #222;
+}
+
+.card-link:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.card-tech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20vh;
+    height: 10vh;
+}
+
+.tech-icon {
+    width: 3vh;
+    margin: 5px;
+    color: #222;
+    padding: 2px;
+}

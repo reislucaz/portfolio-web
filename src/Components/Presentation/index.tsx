@@ -1,11 +1,10 @@
 import './index.css'
 import LucasImg from './lucas-reis.webp'
-import ThreeScene from './ThreeScene'
 
 function Presentation () {
     return (
         <div className="main-presentation">
-            <div className="presentation-left">
+            <div className="presentation-container">
                 <h2 id="sobre-mim-text">_Sobre mim</h2>
                 <div className="photo-text">
                     <img src={LucasImg} alt="" id="lucas-photo" />
@@ -20,9 +19,6 @@ function Presentation () {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="presentation-right">
-                <ThreeScene />
             </div>
         </div>
     )

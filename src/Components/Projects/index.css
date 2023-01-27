@@ -1,0 +1,17 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    padding: 10vh 0;
+}
+
+.projects-text {
+    color: #fff;
+    font-family: 'Fira Code';
+    font-size: 30px;
+    z-index: 2;
+}

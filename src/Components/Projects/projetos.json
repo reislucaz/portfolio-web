@@ -1,0 +1,43 @@
+[
+    {
+        "image":"colet.png",
+        "title":"Colet",
+        "description":"Um site desenvolvido em conjunto com colegas da Universidade para o projeto Colet, um projeto de reciclagem de lixo. Foi interessante desenvolvê-lo, por meio dele aprendi a utilizar o protocolo WebSockets!",
+        "link":"http://colet.tech",
+        "tech": ["node", "ejs", "mysql", "javascript", "css", "html", "socketio"]
+    },
+    {
+        "image":"systematica.png",
+        "title":"Systematica",
+        "description":"Aplicação Full-stack desenvolvida por mim para um case específico onde havia necessidade de manipular sistemas. O objetivo era criar um CRUD com autenticação, autorização de usuários e divisão por roles.",
+        "link":"https://github.com/dealer30/systematica",
+        "tech": ["react", "nestjs", "typescript", "mysql", "html", "css"]
+    },
+    {
+        "image":"getfilmes.png",
+        "title":"GetFilmes",
+        "description":"Aplicação Back-end desenvolvida por mim para testar a framework NestJS. É um CRUD de filmes com autenticação de usuário.",
+        "link":"https://github.com/api-filmes-nestjs",
+        "tech": ["nestjs", "postgresql"]
+    },
+    {
+        "image":"pizzariarestful.png",
+        "title":"Pizzaria Restful",
+        "description":"Aplicação Back-end desenvolvida por mim utilizando o NodeJS com Javascript Vanilla. Usei a framework Express para desenvolver esse CRUD.",
+        "link":"https://github.com/pizzaria-restful",
+        "tech": ["node", "mysql", "javascript"]
+    },
+    {
+        "image":"tiradentes.png",
+        "title":"Projeto Tiradentes",
+        "description":"Aplicação full-stack desenvolvida em conjunto com colegas da Fábrica de Tecnologias Turing. É um sistema de gerenciamento de esterilização de materiais para uso da Universidade.",
+        "tech": ["react", "nestjs", "typescript", "mysql", "socketio"]
+    },
+    {
+        "image":"turismo.png",
+        "title":"AnaTurismo",
+        "description":"Aplicação full-stack desenvolvida em conjunto com colegas. É um website que visa a divulgação de locais e eventos turísticos da cidade de Anápolis. Fomos selecionados por um edital da prefeitura de Anápolis.",
+        "link": "https://www.anapolis.go.gov.br/universitarios-ganham-bolsa-da-prefeitura-para-desenvolver-projetos-para-gestao-publica/",
+        "tech": ["react", "nestjs", "typescript", "mysql"]
+    }
+]
