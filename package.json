@@ -10,6 +10,7 @@
   "dependencies": {
     "@fontsource/fira-code": "^4.5.12",
     "@fontsource/poppins": "^4.5.10",
+    "@formspree/react": "^2.4.1",
     "@tippyjs/react": "^4.2.6",
     "react": "^18.0.0",
     "react-dom": "^18.0",
